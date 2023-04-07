@@ -1,0 +1,18 @@
+{
+    "name": "siims/hello_packagist",
+    "description": "Hello World Packagist",
+    "type": "library",
+    "license": "OSL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Siims\\HelloPackagist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "siims",
+            "email": "system@siims.biz"
+        }
+    ],
+    "require": {}
+}
