@@ -4,6 +4,8 @@ Sample vendor/package for packagist/composer
 # 2023-04-07 23:00
 composer require siims/hello_packagist:dev-main
 
+composer show --platform
+
 Tested, should work
 ```
 ./composer.json has been created
