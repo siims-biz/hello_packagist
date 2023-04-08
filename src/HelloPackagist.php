@@ -20,4 +20,18 @@ class HelloPackagist {
         echo "postPackageUpdate";
         // do stuff
     }
+    public static function postInstallCmd(Event $event)
+    {
+//        $installedPackage = $event->getOperation()->getPackage();
+        $composer = $event->getComposer();
+        echo "postInstallCmd";
+        // do stuff
+    }    
+    public static function postUpdateCmd(Event $event)
+    {
+//        $installedPackage = $event->getOperation()->getPackage();
+        $composer = $event->getComposer();
+        echo "postUpdateCmd\n";
+        // do stuff
+    }        
 }

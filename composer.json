@@ -24,6 +24,12 @@
         ],
         "post-package-update": [
             "Siims\\HelloPackagist\\HelloPackagist::postPackageUpdate"
+        ],
+        "post-install-cmd": [
+            "Siims\\HelloPackagist\\HelloPackagist::postInstallCmd"
+        ],
+        "post-update-cmd": [
+            "Siims\\HelloPackagist\\HelloPackagist::postUpdateCmd"
         ]
 
     }
