@@ -3,6 +3,7 @@
     "description": "Hello World Packagist",
     "type": "library",
     "license": "OSL-3.0",
+    "keywords": ["Hello World"],
     "autoload": {
         "psr-4": {
             "Siims\\HelloPackagist\\": "src/"
@@ -16,5 +17,11 @@
     ],
     "require": {
         "php": ">=7.4"
+    },
+    "scripts": {
+        "post-package-install": [
+            "Siims\\HelloPackagist::postPackageInstall"
+        ]
+
     }
 }
