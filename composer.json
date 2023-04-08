@@ -21,6 +21,9 @@
     "scripts": {
         "post-package-install": [
             "Siims\\HelloPackagist::postPackageInstall"
+        ],
+        "post-package-update": [
+            "Siims\\HelloPackagist::postPackageUpdate"
         ]
 
     }

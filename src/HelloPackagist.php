@@ -11,4 +11,11 @@ class HelloPackagist {
         // do stuff
         print_r($installedPackage);
     }
+
+    public static function postPackageUpdate(PackageEvent $event)
+    {
+        $installedPackage = $event->getOperation()->getPackage();
+        print_r($installedPackage);
+        // do stuff
+    }
 }
