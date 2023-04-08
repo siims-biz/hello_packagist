@@ -1,9 +1,22 @@
 # hello_packagist
 Sample vendor/package for packagist/composer
 
-# 2023-04-07 23:00
-composer require siims/hello_packagist:dev-main
+# 2023-04-08 16:30
+```
+For getting a working sample:
+mkdir new_folder
+composer create-project siims/hello_packagist:dev-main .
+php ExampleHelloComposer.php
+Hello Composer
 
+With create-project you get a copy of the original composer.json.
+With require you get a new composer.json or the existing composer.json gets updated.
+```
+# 2023-04-07 23:00 - Updated on 2023-04-08 16:30
+```
+For using the stuff at your own stuff
+composer require siims/hello_packagist:dev-main
+```
 composer show --platform
 
 Tested, should work
