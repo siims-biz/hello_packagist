@@ -1,5 +1,5 @@
 <?php
-namespace Siims;
+namespace Siims\HelloPackagist;
 
 use Composer\Script\Event;
 use Composer\Installer\PackageEvent;
@@ -12,10 +12,11 @@ class HelloPackagist {
         print_r($installedPackage);
     }
 
-    public static function postPackageUpdate(PackageEvent $event)
+    public static function postPackageUpdate(Event $event)
     {
-        $installedPackage = $event->getOperation()->getPackage();
-        print_r($installedPackage);
+//        $installedPackage = $event->getOperation()->getPackage();
+        $composer = $event->getComposer();
+        echo "postPackageUpdate";
         // do stuff
     }
 }

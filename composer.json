@@ -20,10 +20,10 @@
     },
     "scripts": {
         "post-package-install": [
-            "Siims\\HelloPackagist::postPackageInstall"
+            "Siims\\HelloPackagist\\HelloPackagist::postPackageInstall"
         ],
         "post-package-update": [
-            "Siims\\HelloPackagist::postPackageUpdate"
+            "Siims\\HelloPackagist\\HelloPackagist::postPackageUpdate"
         ]
 
     }
