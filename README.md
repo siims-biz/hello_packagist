@@ -1,6 +1,7 @@
 # hello_packagist
 Sample vendor/package for packagist/composer
-
+# 2023-04-14 16:12
+Attempt to submit production tag 0.0.1
 # 2023-04-08 16:30
 ```
 For getting a working sample:
