@@ -2,6 +2,11 @@
 Sample vendor/package for packagist/composer
 # 2023-04-14 16:12
 Attempt to submit production tag 0.0.1
+Found cached composer.json of siims/hello_packagist (v0.0.7)
+Reading composer.json of siims/hello_packagist (v0.0.6-dev)
+Skipped tag v0.0.6-dev, invalid tag name, tags can not use dev prefixes or suffixes
+Reading composer.json of siims/hello_packagist (v0.0.4-dev)
+Skipped tag v0.0.4-dev, invalid tag name, tags can not use dev prefixes or suffixes
 # 2023-04-08 16:30
 ```
 For getting a working sample:
